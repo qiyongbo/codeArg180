@@ -1,0 +1,19 @@
+package listNode;
+
+/**
+ * Created by yongbo1 on 2019/8/11.
+ */
+public class RandomNode {
+    public int val;
+    public RandomNode next;
+    public RandomNode random;
+
+    public RandomNode() {
+    }
+
+    public RandomNode(int _val, RandomNode _next, RandomNode _random) {
+        val = _val;
+        next = _next;
+        random = _random;
+    }
+}

@@ -113,6 +113,7 @@ public class PrintByLevelAndZigzagPrint {
                 if (currNode.left != null) {
                     deque.offerFirst(currNode.left);
                     if(next_frist == null){
+
                         next_frist = currNode.left;
                     }
                 }
